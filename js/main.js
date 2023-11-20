@@ -210,7 +210,7 @@ function logout() {
 
   setTimeout(() => {
     setupUI();
-    window.location = "home.html";
+    window.location = "index.html";
   }, 1500);
 }
 
@@ -535,7 +535,7 @@ function deletePostBtnClicked(id) {
         })
         .then((response) => {
           setTimeout(() => {
-            window.location = "home.html";
+            window.location = "index.html";
           }, 1500);
         })
         .catch((error) => {
